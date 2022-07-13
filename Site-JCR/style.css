@@ -1,0 +1,163 @@
+@import url("fontawesome-all.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: url(bg-red.png) no-repeat center center/ cover;
+}
+header{
+    background-color: rgba(255, 255, 255, 0.95);
+}
+.banner{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    margin: auto 3rem;
+    cursor: pointer;
+}
+.logo img{
+    width: 60px;
+    margin-top: 5px;
+}
+span{
+    color: yellow;
+}
+
+.nav-links{
+    margin: auto 0;
+}
+nav{
+    padding: 0 3rem;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a{
+    padding: 0 0px;
+}
+
+.contact img{
+    width: 40px;
+}
+.contact img:hover{
+    transform: scale(1.08);
+    text-shadow:0 5px 25px rgb(0 0 0 / 20%) ;
+    transition: 0.3s;
+}
+.whats{
+    padding: 0 15px;
+}
+/*cards*/
+.cards-disciplina{
+    margin-top: 9%;
+    margin-bottom: 5%;
+  }
+  .container {
+    width: 90%;
+    margin: 0px auto;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+  }
+  
+  .card {
+    box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+    align-items: center;
+    width: 25%;
+    height: 300px;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    transition: 0.3s;
+  }
+  
+  .card-header {
+    height: 200px;
+    text-align: center;
+    padding: 50px 10px;
+    background-color: #720512;
+    color: #fff;
+  }
+  .card-header h1{
+    margin-top: 7%;
+  }
+  .card-body {
+    padding: 26px 50px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .card-body .btn {
+    display: block;
+    color: #720512;
+    font-weight: 400;
+    padding: 8px 15px;
+    border: 2px #720512 solid;
+    border-radius: 40px;
+    text-decoration: none;
+  }
+  .card-body .btn:hover{
+    color: #fff;
+    background-color: #720512;
+    border: 2px #720512 solid;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .cards-disciplina{
+      margin-top: 15%;
+    }
+    .card {
+      width: 40%;
+    }
+  }
+  
+  @media screen and (max-width: 620px) {
+    .cards-disciplina{
+      margin-top: 20%;
+    }
+    .container {
+      width: 100%;
+    }
+  
+    .heading {
+      padding: 20px;
+      font-size: 20px;
+    }
+  
+    .card {
+      width: 80%;
+    }
+  }
+
+  /* footer */
+footer{
+    width: 100%;
+    height: 36px;
+    background-color: #720512;
+    text-align: center;
+    justify-content: center;
+    padding: 6px;
+}
+footer p{
+    color: rgba(255, 255, 255, 0.7); 
+}
+  
